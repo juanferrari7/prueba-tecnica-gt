@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  gap: 30px
+}
+
+.filters {
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+}
+

@@ -1,0 +1,27 @@
+.movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.movieCard {
+  text-align: center;
+  width: 300px;
+  height: 400px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  margin: 10px;
+  box-shadow: 0px 4px 8px 0 rgba(24, 13, 1, 0.33);
+  background: linear-gradient(
+    180deg,
+    rgb(0, 0, 0),
+    rgb(34, 35, 0)
+  );
+  /* background-color: transparent; */
+  border-radius: 15px;
+  display: inline-block;
+  list-style: none;
+  color: yellow;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
