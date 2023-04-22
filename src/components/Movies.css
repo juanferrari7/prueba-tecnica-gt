@@ -14,13 +14,18 @@
   background: linear-gradient(
     180deg,
     rgb(0, 0, 0),
-    rgb(34, 35, 0)
+    rgba(0, 0, 0, 0.493)
   );
   /* background-color: transparent; */
+  filter: opacity(85%);
+  transition: 0.7s;
   border-radius: 15px;
   display: inline-block;
   list-style: none;
   color: yellow;
+}
+.movieCard:hover {
+  filter: none;
 }
 ::-webkit-scrollbar {
   width: 12px;
